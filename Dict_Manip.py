@@ -31,7 +31,7 @@ def intersect_dicts(dict_1, dict_2):
             intersection[key] = dict_1[key]
     return intersection
 
-# Example dictionaries
+
 dict_1 = {
     'pie': 'apple',
     'ice_cream': 'moose tracks',
@@ -49,4 +49,3 @@ dict_2 = {
 # Find intersection
 intersection = intersect_dicts(dict_1, dict_2)
 print(intersection)
-# Output: {'cobbler': 'peach'}
